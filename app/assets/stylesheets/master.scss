@@ -6,7 +6,7 @@
 
 .circle {
     font-weight:bold;
-    font-style: italic;
+    font-family: 'cooper_hewittlight';
     position: relative;
     border-radius: 100%;
     background: #ABB4C4;
@@ -16,14 +16,14 @@
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 16px;
     cursor: pointer;
     
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'cooper_hewittlight';
   padding-top: 26px;
 }
 
@@ -35,12 +35,22 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: 'cooper_hewittlight';
 }
 
 header {
     border-top: 9px solid #ABB4C4;
 }
 
-hr{
+hr {
     clear:both;
+}
+
+h1 {
+    font-family: 'sinkin_sans100_thin';
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'sinkin_sans100_thin';
 }
