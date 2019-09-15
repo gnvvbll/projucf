@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans&display=swap');
-</style>
-
 
   <head>
     <title>Splurty</title>
@@ -37,6 +33,24 @@
 
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+                <%= link_to "This isn't enough unsolicited advice, I need more.", "#", class: 'next-quote' %>
+            </div>
+
+            <div class="col-6 footer-blurb">
+                Proudly made by professional unsolicited-advice-giver <a href="[https://genevieve-bell.netlify.com/]">Genevieve Bell</a><br />
+            </div>
+          </div>
+        </div>
+    </div>
+
+
   </body>
 </html>
