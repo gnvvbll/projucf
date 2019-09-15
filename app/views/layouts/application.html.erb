@@ -14,13 +14,15 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
             <br />
             UNSLCTD
             <br />
             ADVCE
-        </div>
-      </div>
+          </div>
+        <% end %>
+    </div>
       <div class="col-4 slogan">
        Strangers giving strangers advice they didn't ask for. 
       </div>
@@ -41,7 +43,7 @@
         <div class="container">
           <div class="row">
             <div class="col-6">
-                <%= link_to "This isn't enough unsolicited advice, I need more.", "#", class: 'next-quote' %>
+                <%= link_to "This isn't enough unsolicited advice, I need more.", root_path, class: 'next-quote' %>
             </div>
 
             <div class="col-6 footer-blurb">
