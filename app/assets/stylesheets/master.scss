@@ -74,3 +74,22 @@ h2 {
 .about {
     font-family: 'cooper_hewittlight';
 }
+
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align: left;
+    }
+}
+
+.modal {
+    font-family: 'sinkin_sans100_thin';
+}
+
+h2 span {
+    color: #dddddd;
+    font-family: 'sinkin_sans100_thin';
+}
+
+::selection {
+  background-color: #F5530C;
+}
