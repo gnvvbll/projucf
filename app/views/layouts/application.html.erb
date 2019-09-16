@@ -27,7 +27,7 @@
        Strangers giving strangers advice they didn't ask for. 
       </div>
       <div class="col-5 links">
-        <%= link_to 'contribute', '#' %>
+        <%= link_to 'contribute', new_quote_path %>
         <%= link_to 'about', '#' %>
     </header>
 
@@ -36,6 +36,11 @@
     <br class="clear" />
 
     <div class="container">
+      <% if flash[:error].present? %>
+            <div class="col-10 offset-1 alert alert-danger">
+            <%= flash[:error].html_safe %>
+            </div>
+        <% end %>
       <%= yield %>
     </div>
 
